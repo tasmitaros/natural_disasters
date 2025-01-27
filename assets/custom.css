@@ -1,0 +1,127 @@
+html, body {
+    overflow-x: hidden; /* remove horizontal scrollbar */
+}
+
+.page-header {
+    background-color: #2c3e50;
+    color: white;
+    text-align: center;
+    align-content: center;
+    padding: 0px;
+    margin: 0px;
+    position: fixed;
+    top: 0px;
+    height: 70px;
+    width: 100%;
+    z-index: 1000;
+}
+
+.page-footer {
+    background-color: #2c3e50;
+    color: white;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    align-content: center;
+    justify-content: space-between;
+    position: fixed;
+    padding: 0px;
+    margin: 0px;
+    bottom: 0px;
+    height: 70px;
+    width: 100%;
+    z-index: 1000;
+}
+
+.page-footer-left {
+    text-align: left;
+    white-space: nowrap;
+}
+
+.page-footer-center {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    flex: 1;
+}
+
+.page-footer-right {
+    text-align: right;
+    white-space: nowrap;
+}
+
+.page-footer-text-left {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 10px;
+    margin-right: 0px;
+    font-size: 14px;
+    text-align: left;
+}
+
+.page-footer-text-right {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 10px;
+    font-size: 12px;
+    font-style: italic;
+    text-align: right;
+}
+
+.page-footer-images {
+    height: 40px;
+    width: 40px;
+}
+
+.filters {
+    margin-top: 70px;
+    margin-bottom: 0px;
+}
+
+.filter-text label {
+    font-size: 14px;
+    font-style: italic;
+    font-family: arial, sans-serif;
+}
+
+.dropdown {
+    font-size: 13px;
+}
+
+.dropdown .Select-control {
+    display: inline-block !important;
+    height: 35px !important;
+    width: 100% !important;
+    font-size: 14 !important;
+}
+
+.button-play {
+    color: white !important;
+    background-color: green !important;
+    font-size: 14px !important;
+    text-transform: unset !important;
+    margin-bottom: 10px;
+}
+
+.button-stop {
+    color: white !important;
+    background-color: red !important;
+    font-size: 14px !important;
+    text-transform: unset !important;
+    margin-bottom: 10px;
+}
+
+.radio-button {
+    font-family: arial;
+    font-size: 14px;
+}
+
+.data-table th,
+.data-table td {
+    max-width: 0px;
+    font-size: 11px;
+    white-space: wrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
